@@ -13,7 +13,7 @@
             "translate(" + margin.left + "," + margin.top + ")");
   
   //Read the data
-  d3.csv("data.csv", function(data) {
+  d3.csv("Resources/data.csv", function(data) {
   
     // Add X axis
     var x = d3.scaleLinear()
@@ -48,9 +48,6 @@
     .style("font-size","14pt");
 
 
-
-
-  
     // Add a scale for bubble size
     var z = d3.scaleLinear()
       .domain([1, 20])

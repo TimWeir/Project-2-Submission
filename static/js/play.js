@@ -1,4 +1,4 @@
-d3.csv("data.csv").then(function (data) {
+d3.csv("Resources/data.csv").then(function (data) {
     var heros = data;
     var button = d3.select('#button');
     var form = d3.select("#form");

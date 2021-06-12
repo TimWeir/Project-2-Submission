@@ -15,7 +15,7 @@
    <script src="https://d3js.org/d3.v4.js"></script>          
    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
    <script  src=https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js></script>
-   <link rel="stylesheet" href="assets/css/style_100.css" />
+   <link rel="stylesheet" href="static/css/style_100.css" />
 
 </head>
 
@@ -119,7 +119,7 @@ var config = {
 }
 
 d3.queue()
-  .defer(d3.json, "data/matrixObject-100-min.json")
+  .defer(d3.json, "Resources/matrixObject-100-min.json")
   .await(ready);
 
 function ready(error, d) {
